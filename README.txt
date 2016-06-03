@@ -1,4 +1,6 @@
-HAIKU GENERATOR INSTRUCTIONs:
+HAIKU GENERATOR INSTRUCTIONS:
+
+This is a command line haiku generator, which accepts a structure - formatted as an array - as an argument. The structure array's elements contain numbers, which will be translated to a random word containing that number of syllables. Each element represents a new line of the poem. Elements that are arrays represent lines with multiple words. 
 
 Pass an array as the first argument to haiku_generator.js, e.g. 'node haiku_generator [1,2,3]'
 Ensure the argument follows the following rules:
